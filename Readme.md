@@ -3,7 +3,7 @@ This is a mirror of the [Nvim LSP PR](https://github.com/neovim/neovim/pull/6856
 
 ## Instructions
 - Use recent Neovim master (or 0.3.2 when it is released)
-- Add `bfredl/nvim-lspmirror` as a plugin in your `init.vim`
+- Add `bfredl/nvim-lspmirror` as a plugin in your `init.vim` (if you install this plugin as a standard vim plugin, you need to add ``set rtp+=...path/to/nvim-lspmirror`` before calling the following commands)
 - Configure servers in your `init.vim`:
 ```
     call lsp#server#add(['c', 'c++'], ['clangd'], {})
